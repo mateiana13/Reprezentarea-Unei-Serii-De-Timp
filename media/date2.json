@@ -1,0 +1,366 @@
+{
+	"name":"clasa_de_date",
+	"children":[
+	{
+		"name":"Romania",
+		"children":[
+		{
+			"name":"populatie",
+			"children":[
+			{
+				"name":"pop-1980", "value":"21.52", "tara":"Romania"
+			},
+			{
+				"name":"pop-1981", "value":"19.56", "tara":"Romania"
+			},
+			{
+				"name":"pop-1982", "value":"31.58", "tara":"Romania"
+			},
+			{
+				"name":"pop-1983", "value":"35.62", "tara":"Romania"
+			},
+			{
+				"name":"pop-1984", "value":"41.65", "tara":"Romania"
+			},
+			{
+				"name":"pop-1985", "value":"21.68", "tara":"Romania"
+			},
+			{
+				"name":"pop-1986", "value":"7.6", "tara":"Romania"
+			},
+			{
+				"name":"pop-1987", "value":"51.7", "tara":"Romania"
+			},
+			{
+				"name":"pop-1988", "value":"47.74", "tara":"Romania"
+			},
+			{
+				"name":"pop-1989", "value":"61.71", "tara":"Romania"
+			},
+			{
+				"name":"pop-1990", "value":"31.83", "tara":"Romania"
+			},
+			{
+				"name":"pop-1991", "value":"16.96", "tara":"Romania"
+			},
+			{
+				"name":"pop-1992", "value":"73.62", "tara":"Romania"
+			},
+			{
+				"name":"pop-1993", "value":"68.82", "tara":"Romania"
+			},
+			{
+				"name":"pop-1994", "value":"78.96", "tara":"Romania"
+			},
+			{
+				"name":"pop-1995", "value":"23.15", "tara":"Romania"
+			},
+			{
+				"name":"pop-1996", "value":"59.24", "tara":"Romania"
+			},
+			{
+				"name":"pop-1997", "value":"22.08", "tara":"Romania"
+			},
+			{
+				"name":"pop-1998", "value":"5.83", "tara":"Romania"
+			},
+			{
+				"name":"pop-1999", "value":"43.56", "tara":"Romania"
+			},
+			{
+				"name":"pop-2000", "value":"26.24", "tara":"Romania"
+			},
+			{
+				"name":"pop-2001", "value":"74.11", "tara":"Romania"
+			},
+			{
+				"name":"pop-2002", "value":"71.62", "tara":"Romania"
+			},
+			{
+				"name":"pop-2003", "value":"97.45", "tara":"Romania"
+			},
+			{
+				"name":"pop-2003", "value":"97.45", "tara":"Romania"
+			},
+			{
+				"name":"pop-2004", "value":"40.23", "tara":"Romania"
+			},
+			{
+				"name":"pop-2005", "value":"60.2", "tara":"Romania"
+			},
+			{
+				"name":"pop-2006", "value":"23.32", "tara":"Romania"
+			},
+			{
+				"name":"pop-2007", "value":"13.49", "tara":"Romania"
+			},
+			{
+				"name":"pop-2008", "value":"12.2", "tara":"Romania"
+			},
+			{
+				"name":"pop-2009", "value":"33.92", "tara":"Romania"
+			},
+			{
+				"name":"pop-2010", "value":"20.7", "tara":"Romania"
+			}
+			]
+		},
+		{
+			"name":"PIB",
+			"children":[
+			{
+				"name":"pib-1980", "value":"1840.84", "tara":"Romania"
+			},
+			{
+				"name":"pib-1981", "value":"2500.66", "tara":"Romania"
+			},
+			{
+				"name":"pib-1982", "value":"3945.23", "tara":"Romania"
+			},
+			{
+				"name":"pib-1983", "value":"1015.29", "tara":"Romania"
+			},
+			{
+				"name":"pib-1984", "value":"2118.95", "tara":"Romania"
+			},
+			{
+				"name":"pib-1985", "value":"2589.55", "tara":"Romania"
+			},
+			{
+				"name":"pib-1986", "value":"2341.52", "tara":"Romania"
+			},
+			{
+				"name":"pib-1987", "value":"3343.52", "tara":"Romania"
+			},
+			{
+				"name":"pib-1988", "value":"4011.76", "tara":"Romania"
+			},
+			{
+				"name":"pib-1989", "value":"1733.75", "tara":"Romania"
+			},
+			{
+				"name":"pib-1990", "value":"1194.64", "tara":"Romania"
+			},
+			{
+				"name":"pib-1991", "value":"1945.67", "tara":"Romania"
+			},
+			{
+				"name":"pib-1992", "value":"1399.51", "tara":"Romania"
+			},
+			{
+				"name":"pib-1993", "value":"1416.57", "tara":"Romania"
+			},
+			{
+				"name":"pib-1994", "value":"2369.35", "tara":"Romania"
+			},
+			{
+				"name":"pib-1995", "value":"1989.45", "tara":"Romania"
+			},
+			{
+				"name":"pib-1996", "value":"4353.86", "tara":"Romania"
+			},
+			{
+				"name":"pib-1997", "value":"5321.72", "tara":"Romania"
+			},
+			{
+				"name":"pib-1998", "value":"1631.53", "tara":"Romania"
+			},
+			{
+				"name":"pib-1999", "value":"1567.35", "tara":"Romania"
+			},
+			{
+				"name":"pib-2000", "value":"1733.63", "tara":"Romania"
+			},
+			{
+				"name":"pib-2001", "value":"1845.34", "tara":"Romania"
+			},
+			{
+				"name":"pib-2002", "value":"1256.56", "tara":"Romania"
+			},
+			{
+				"name":"pib-2003", "value":"2156.56", "tara":"Romania"
+			},
+			{
+				"name":"pib-2004", "value":"2890.14", "tara":"Romania"
+			},
+			{
+				"name":"pib-2005", "value":"3232.46", "tara":"Romania"
+			},
+			{
+				"name":"pib-2006", "value":"5354.75", "tara":"Romania"
+			},
+			{
+				"name":"pib-2007", "value":"4345.32", "tara":"Romania"
+			},
+			{
+				"name":"pib-2008", "value":"2964.62", "tara":"Romania"
+			},
+			{
+				"name":"pib-2009", "value":"4956.43", "tara":"Romania"
+			},
+			{
+				"name":"pib-2010", "value":"6535.54", "tara":"Romania"
+			}
+			]
+		},
+		{
+			"name":"SV",
+			"children":[
+			{
+				"name":"sv-1980", "value":"69.1", "tara":"Romania"
+			},
+			{
+				"name":"sv-1981", "value":"69.5", "tara":"Romania"
+			},
+			{
+				"name":"sv-1982", "value":"70", "tara":"Romania"
+			},
+			{
+				"name":"sv-1983", "value":"71.2", "tara":"Romania"
+			},
+			{
+				"name":"sv-1984", "value":"72", "tara":"Romania"
+			},
+			{
+				"name":"sv-1985", "value":"72.5", "tara":"Romania"
+			},
+			{
+				"name":"sv-1986", "value":"73", "tara":"Romania"
+			},
+			{
+				"name":"sv-1987", "value":"73.4", "tara":"Romania"
+			},
+			{
+				"name":"sv-1988", "value":"74.5", "tara":"Romania"
+			},
+			{
+				"name":"sv-1989", "value":"75.6", "tara":"Romania"
+			},
+			{
+				"name":"sv-1990", "value":"76", "tara":"Romania"
+			},
+			{
+				"name":"sv-1991", "value":"76.7", "tara":"Romania"
+			},
+			{
+				"name":"sv-1992", "value":"78", "tara":"Romania"
+			},
+			{
+				"name":"sv-1993", "value":"78.5", "tara":"Romania"
+			},
+			{
+				"name":"sv-1994", "value":"78.8", "tara":"Romania"
+			},
+			{
+				"name":"sv-1995", "value":"79", "tara":"Romania"
+			},
+			{
+				"name":"sv-1996", "value":"81", "tara":"Romania"
+			},
+			{
+				"name":"sv-1997", "value":"83", "tara":"Romania"
+			},
+			{
+				"name":"sv-1998", "value":"85", "tara":"Romania"
+			},
+			{
+				"name":"sv-1999", "value":"78", "tara":"Romania"
+			},
+			{
+				"name":"sv-2000", "value":"80", "tara":"Romania"
+			},
+			{
+				"name":"sv-2001", "value":"81", "tara":"Romania"
+			},
+			{
+				"name":"sv-2002", "value":"84", "tara":"Romania"
+			},
+			{
+				"name":"sv-2003", "value":"82.5", "tara":"Romania"
+			},
+			{
+				"name":"sv-2004", "value":"79", "tara":"Romania"
+			},
+			{
+				"name":"sv-2005", "value":"85", "tara":"Romania"
+			},
+			{
+				"name":"sv-2006", "value":"73", "tara":"Romania"
+			},
+			{
+				"name":"sv-2007", "value":"89", "tara":"Romania"
+			},
+			{
+				"name":"sv-2008", "value":"70", "tara":"Romania"
+			},
+			{
+				"name":"sv-2009", "value":"87", "tara":"Romania"
+			},
+			{
+				"name":"sv-2010", "value":"85", "tara":"Romania"
+			}
+			]
+		}
+		]
+	},
+	{
+		"name" : "China",
+		"children": [
+		{
+			"name" : "populatie",
+			"children" : [
+				{
+					"name" : "pop-1980", "value" : "997.1", "tara":"China"
+				}
+			]
+		},
+		{
+			"name" : "PIB",
+			"children" : [
+				{
+					"name" : "pib-1980", "value" : "186.43", "tara":"China"
+				}
+			]
+		},
+		{
+			"name" : "SV",
+			"children" : [
+				{
+					"name" : "sv-1980", "value" : "64.5", "tara":"China"
+				}
+			]
+		}
+		]
+
+	},
+	{
+		"name" : "Algeria",
+		"children": [
+		{
+			"name" : "populatie",
+			"children" : [
+				{
+					"name" : "pop-1980", "value" : "7.89", "tara":"Algeria"
+				}
+			]
+		},
+		{
+			"name" : "PIB",
+			"children" : [
+				{
+					"name" : "pib-1980", "value" : "1876.5", "tara":"Algeria"
+				}
+			]
+		},
+		{
+			"name" : "SV",
+			"children" : [
+				{
+					"name" : "sv-1980", "value" : "68.8", "tara":"Algeria"
+				}
+			]
+		}
+		]
+
+	}
+]}

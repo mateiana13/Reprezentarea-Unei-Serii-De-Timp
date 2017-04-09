@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Vizualizare serie de timp</title>
+
+
+    <script type="text/javascript" src="media/d3.js" charset="utf-8"></script>
+    
+    <script type="text/javascript" src="media/d3.min.js" charset="utf-8"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	 
+
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+   
+    <link rel="stylesheet" type="text/css" href="3_1070_Matei_AnaMaria.css">
+	 
+ 	<script type="text/javascript" src="3_1070_Matei_AnaMaria.js"></script>
+ 	
+
+ 	<script type="text/javascript" src="media/jquery-2.1.4.min.js"></script>
+	
+
+
+</head>
+
+<body onload="deseneazaHistograma(); deseneazaTabel()">
+
+	
+
+	<p id="p1"><b>Bine ai venit!<b></p>
+
+	<div id="div5"></div>
+
+	<p id = "p2">Datele folosite la realizarea urmatoarei histograme, a bubble chart-ului si a tabelului pe care le veti vizualiza in continuare fac referire la o perioada de <u>31 de ani(1980-2010)</u>. Am ales sa folosim valorile <span id="span1">PIB-ului</span>, <span id="span2">populatiei</span> si <span id="span3">sperantei de viata</span> corespunzatoare urmatoarelor tari: </p>
+
+	<div id="div6">
+		<ol Id="myList" style="list-style-type:circle">
+		<li id="l1">ROMANIA</li>
+		<li id="l2">CHINA</li>
+		<li id="l3">ALGERIA</li>
+		</ol>  
+	</div>
+
+	<p id = "p3">In urmatoarea histograma poti observa statistici referitoare la PIB, populatia si speranta de viata corespunzatoare celor 3 tari. Valorile numerice trecute in partea superioara a barelor colorate reprezinta <i>numarul de valori</i> cuprinse in intervalul desemnat de fiecare coloana colorata. Alegeti una dintre cele 3 tari(Romania, China, Algeria) din caseta de mai jos si o caracteristica(PIB, populatie, speranta de viata) din a doua caseta pentru a vedea histograma dorita.</p>
+
+
+	<div class="grafic">
+	
+		<svg id="svgVisualize" style="border:1px solid #000000">
+		</svg>
+	</div>
+
+	<div class="grafic">
+		<select id="tara" onchange="deseneazaHistograma()">
+			<option value="0">Romania</option>
+			<option value="1">China</option>
+			<option value="2">Algeria</option>			
+		</select>
+
+		<select id="caracteristica" onchange="deseneazaHistograma()">
+			<option value="0">populatie</option>
+			<option value="1">PIB</option>
+			<option value="2">speranta_de_viata</option>			
+		</select>
+	</div>
+
+	<div id="div4"></div>
+
+	<p id="p4">Urmatorul grafic reprezinta sub forma de bule o corespondenta intre PIB/loc(pe axa OY) si speranta de viata(pe axa OX)pentru fiecare dintre cele 3 tari.</p>
+	<p id="p5"><span id="span4">Romania</span> este reprezentata de culoarea <span id="span5">verde</span>, <span id="span6">China</span> prin culoarea <span id="span7">magenta</span>, iar <span id="span8">Algeria</span> prin <span id="span9">steelblue</span>.</p>
+	<p id="p6">La apasarea butoanelor <u>next</u> si <u>prev</u> sunt reprezentate de fiecare data datele corespunzatoare anului indicat in text. Butonul <u>Populeaza Grafic</u> aseaza pe grafic toate cele 93 de valori corespunzatoare inregistrarilor preluate din baza de date.</p>
+
+	<div id="div6"></div>
+
+	<div id="bubbleChart">
+		<div id="div1">
+			<svg id="mySVG" width="1200" height="500"></svg>
+		</div>
+		<div>
+			<p id="anul">1979</p>
+			<button id="prev" onclick="prevAn()">prev</button>
+			<button id="next" onclick="nextAn()">next</button>
+			<button id="populare" onclick="populeazaGrafic()">Populeaza Grafic</button>
+		</div>
+
+		</div>
+			<div id="div8">
+				<button id="prevAnim" onclick="prevAnim()">prev animation</button>
+				<button id="nextAnim" onclick="nextAnim()">next animation</button>
+			</div>
+		</div>
+
+		<div id="div3"></div>
+
+
+	<p id="p7">In urmatorul tabel aveti afisate datele corespunzatoare PIB-ului, populatiei si sperantei de viata pentru intervalul de timp selectat.
+	Tot ce trebuie sa faceti e sa alegeti din prima caseta anul de inceput si ultimul an care va intereseaza din a doua caseta.	Tabelul va fi afisat imediat ce veti fi selectat unul dintre cei doi ani. Datele vor fi afisate ordonat. Pentru a vizualiza tabelul dati scroll.</p>
+
+	<div id="div7"></div>
+
+	<div id="alegeAni">
+
+		<select id="an1" onchange="deseneazaTabel()">
+			<option value="0">1980</option>
+			<option value="1">1981</option>
+			<option value="2">1982</option>	
+			<option value="4">1983</option>
+			<option value="5">1984</option>
+			<option value="6">1985</option>
+			<option value="7">1986</option>
+			<option value="8">1987</option>
+			<option value="9">1988</option>	
+			<option value="10">1989</option>
+			<option value="11">1990</option>			
+		</select>
+
+		<select id="an2" onchange="deseneazaTabel()">
+			<option value="0">1980</option>
+			<option value="1">1981</option>
+			<option value="2">1982</option>	
+			<option value="4">1983</option>
+			<option value="5">1984</option>
+			<option value="6">1985</option>
+			<option value="7">1986</option>
+			<option value="8">1987</option>
+			<option value="9">1988</option>	
+			<option value="10">1989</option>
+			<option value="11">1990</option>		
+
+	</div>
+
+
+</body>
+</html>

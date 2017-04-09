@@ -1,0 +1,233 @@
+[
+	{
+		"tara":"Romania",
+		"an": 1980,
+		"populatie": 19.8,
+		"PIB": 23.7,
+		"SV": 69.1
+	},
+	{
+		"tara":"Romania",
+		"an": 1981,
+		"populatie": 20,
+		"PIB": 24,
+		"SV": 69.2
+	},
+	{
+		"tara":"Romania",
+		"an": 1982,
+		"populatie": 21,
+		"PIB": 25.4,
+		"SV": 69.2
+	},
+	{
+		"tara":"Romania",
+		"an": 1983,
+		"populatie": 19,
+		"PIB": 23,
+		"SV": 69.3
+	},
+	{
+		"tara":"Romania",
+		"an": 1984,
+		"populatie": 20,
+		"PIB": 24,
+		"SV": 69.3
+	},
+	{
+		"tara":"Romania",
+		"an": 1985,
+		"populatie": 21,
+		"PIB": 25,
+		"SV": 69.5
+	},
+	{
+		"tara":"Romania",
+		"an": 1986,
+		"populatie": 23,
+		"PIB": 19.2,
+		"SV": 69.5
+	},
+	{
+		"tara":"Romania",
+		"an": 1987,
+		"populatie": 27,
+		"PIB": 28,
+		"SV": 69.8
+	},
+	{
+		"tara":"Romania",
+		"an": 1988,
+		"populatie": 25,
+		"PIB": 29,
+		"SV": 69.9
+	},
+	{
+		"tara":"Romania",
+		"an": 1989,
+		"populatie": 24.5,
+		"PIB": 28.9,
+		"SV": 70
+	},
+	{
+		"tara":"Romania",
+		"an": 1990,
+		"populatie": 27,
+		"PIB": 26.3,
+		"SV": 70
+	},
+	{
+		"tara":"China",
+		"an": 1980,
+		"populatie": 342,
+		"PIB": 312,
+		"SV": 56
+	},
+	{
+		"tara":"China",
+		"an": 1981,
+		"populatie": 359,
+		"PIB": 323,
+		"SV": 56.2
+	},
+	{
+		"tara":"China",
+		"an": 1982,
+		"populatie": 334,
+		"PIB": 335,
+		"SV": 56.2
+	},
+	{
+		"tara":"China",
+		"an": 1983,
+		"populatie": 356,
+		"PIB": 354,
+		"SV": 56.4
+	},
+	{
+		"tara":"China",
+		"an": 1984,
+		"populatie": 370,
+		"PIB": 365,
+		"SV": 56.5
+	},
+	{
+		"tara":"China",
+		"an": 1985,
+		"populatie": 350,
+		"PIB": 340,
+		"SV": 56.8
+	},
+	{
+		"tara":"China",
+		"an": 1986,
+		"populatie": 352,
+		"PIB": 343,
+		"SV": 57
+	},
+	{
+		"tara":"China",
+		"an": 1987,
+		"populatie": 362,
+		"PIB": 379,
+		"SV": 57.2
+	},
+	{
+		"tara":"China",
+		"an": 1988,
+		"populatie": 370,
+		"PIB": 379,
+		"SV": 57.5
+	},
+	{
+		"tara":"China",
+		"an": 1989,
+		"populatie": 376,
+		"PIB": 389,
+		"SV": 57.8
+	},
+	{
+		"tara":"China",
+		"an": 1990,
+		"populatie": 380,
+		"PIB": 397,
+		"SV": 58
+	},
+	{
+		"tara":"Algeria",
+		"an": 1980,
+		"populatie": 7.89,
+		"PIB": 23,
+		"SV": 68
+	},
+	{
+		"tara":"Algeria",
+		"an": 1981,
+		"populatie": 8,
+		"PIB": 23.3,
+		"SV": 68.1
+	},
+	{
+		"tara":"Algeria",
+		"an": 1982,
+		"populatie": 8.25,
+		"PIB": 24,
+		"SV": 68.3
+	},
+	{
+		"tara":"Algeria",
+		"an": 1983,
+		"populatie": 8.56,
+		"PIB": 24.78,
+		"SV": 68.3
+	},
+	{
+		"tara":"Algeria",
+		"an": 1984,
+		"populatie": 9,
+		"PIB": 25.33,
+		"SV": 68.4
+	},
+	{
+		"tara":"Algeria",
+		"an": 1985,
+		"populatie": 9.6,
+		"PIB": 24,
+		"SV": 68.5
+	},
+	{
+		"tara":"Algeria",
+		"an": 1986,
+		"populatie": 10.24,
+		"PIB": 24.7,
+		"SV": 68.8
+	},
+	{
+		"tara":"Algeria",
+		"an": 1987,
+		"populatie": 10.78,
+		"PIB": 25.3,
+		"SV": 69
+	},
+	{
+		"tara":"Algeria",
+		"an": 1988,
+		"populatie": 10.43,
+		"PIB": 25,
+		"SV": 69
+	},
+	{
+		"tara":"Algeria",
+		"an": 1989,
+		"populatie": 11,
+		"PIB": 25.9,
+		"SV": 68.3
+	},
+	{
+		"tara":"Algeria",
+		"an": 1990,
+		"populatie": 11.63,
+		"PIB": 26.82,
+		"SV": 68.5
+	}
+]
