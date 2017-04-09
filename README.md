@@ -1,0 +1,1 @@
+# Reprezentarea-Unei-Serii-De-Timp
